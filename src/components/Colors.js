@@ -1,5 +1,7 @@
 export const primaryColor = "#6404A3";
 export const secondaryColor = "#FE7200";
+export const bgPrimary = "#6404A3";
+export const bgSecondary = "#FE7200";
 export const bgTertairy = "#E4CCF3";
 export const bgLight = "#F5E6FE";
 export const textDark = "#0C0D0E";
