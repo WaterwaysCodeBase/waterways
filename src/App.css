@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/public/fonts/Quicksand-Bold.ttf") format("woff2");
+  src: url("/public/fonts/Quicksand-Medium.ttf") format("woff2");
+  src: url("/public/fonts/Quicksand-Regular.ttf") format("woff2");
+  src: url("/public/fonts/Quicksand-SemiBold.ttf") format("woff2");
+  src: url("/public/fonts/Quicksand-VariableFont_wght.ttf") format("woff2");
+}
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+}
+
+.image-link {
+  display: inline-block;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.normal-image,
+.hover-image {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.image-link:hover .normal-image {
+  opacity: 0; /* Hide the normal image on hover */
+}
+
+.image-link:hover .hover-image {
+  opacity: 1; /* Show the hover image on hover */
+}
