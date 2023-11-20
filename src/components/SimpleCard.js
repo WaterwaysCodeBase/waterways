@@ -18,14 +18,14 @@ const SimpleCard = ({ icon, content }) => {
           <CardBody>
             <HStack alignSelf={"center"} justifySelf={"center"}>
               <Icon
-                fontSize={"3em"}
+                fontSize={"2em"}
                 as={cardContent?.icon}
                 color={textPrimary}
               />
               <HeadingTitle4>{cardContent?.title}</HeadingTitle4>
             </HStack>
             <Stack mt="6" spacing="3" h={{ base: "", md: "auto" }}>
-              <SimpleText textAlign={"justify"}>{cardContent?.text}</SimpleText>
+              <SimpleText textAlign={"left"}>{cardContent?.text}</SimpleText>
             </Stack>
           </CardBody>
         </Card>

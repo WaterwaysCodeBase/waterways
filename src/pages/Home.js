@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import goals from '../img/goals.png'
+
 // 1. import `ChakraProvider` component
 import {
   Box,
@@ -14,6 +16,8 @@ import {
   Stack,
   Text,
   VStack,
+  background,
+  textDecoration,
 } from "@chakra-ui/react";
 import Section from "../components/Section";
 import TypingEffect from "../components/TypingEffect";
@@ -22,6 +26,7 @@ import {
   bgLight,
   bgPrimary,
   bgTertairy,
+  primaryColor,
   secondaryColor,
   textPrimary,
   textSecondary,
@@ -34,6 +39,8 @@ import {
   HeadingTitle,
   HeadingTitle2,
   HeadingTitle3,
+  HeadingTitle4,
+  HeadingTitle5,
 } from "../components/HeadingTitle";
 import {
   Bs0Circle,
@@ -45,17 +52,24 @@ import {
   BsLock,
   BsPersonVcard,
 } from "react-icons/bs";
-import { SimpleText } from "../components/TextStyles";
+import { SimpleText, SimpleText2 } from "../components/TextStyles";
 import SimpleCard from "../components/SimpleCard";
 import { homeCardContent } from "../utils/data";
 import PostSlideWithImage from "../components/PostSlides";
+import Slider from "../components/slider/Slider";
+import SimpleCard2 from "../components/simplecard2/SimpleCard2";
+import Testimonial from "../components/testimonial/Testimonial";
+import { color } from "framer-motion";
+import Newsletter from "../components/newsletter/Newsletter";
+import Footer from "../components/footer/Footer";
+import BNewsletter from "../components/bNewsletter/BNewsletter";
 
 export default function Home() {
   const words = ["Excellence ", "Innovation ", "Trust ", "Impact "];
   return (
     <>
       <Section
-        id={""}
+        id={"Home"}
         bg={"white"}
         h={{ sm: "100vh", md: "auto" }}
         mt={{ base: "-4em", md: "-5.79em" }}
@@ -240,7 +254,7 @@ export default function Home() {
             justify={"start"}
             gap={{ base: "3em", md: "1em" }}
           >
-            <SimpleGrid columns={4} spacing={"2em"}>
+            <SimpleGrid columns={{base: 1, md: 3}} spacing={"2em"}>
               <SimpleCard content={homeCardContent} />
             </SimpleGrid>
           </Flex>
@@ -261,14 +275,14 @@ export default function Home() {
             m={"auto"}
             spacing={"2em"}
           >
-            <SimpleText>
+            <SimpleText color={'white'}>
               At Waterways Digital Ltd, Our mission is clear
             </SimpleText>
             <HeadingTitle2 color={textSecondary}>
               Here's what sets us apart
             </HeadingTitle2>
           </VStack>
-          <Flex
+          {/* <Flex
             justifyContent="space-between"
             flexDirection={{ base: "column", md: "row" }}
             // alignItems="center"
@@ -278,7 +292,8 @@ export default function Home() {
             <SimpleGrid columns={3} width={"7xl"} m={"auto"} spacing={"2em"}>
               <PostSlideWithImage />
             </SimpleGrid>
-          </Flex>
+          </Flex> */}
+          <Slider />
         </Stack>
       </Section>
       <Section py={"7em"}>
@@ -291,8 +306,11 @@ export default function Home() {
                 Agencies
               </HeadingTitle3>
               <Box>
-                {" "}
-                <Button>Learn More >></Button>
+              <CustumButton
+                  bg={secondaryColor}
+                  color={"white"}
+                  label={"Learn more >>"}
+                />
               </Box>
             </Stack>
           </Flex>
@@ -308,6 +326,130 @@ export default function Home() {
           </Flex>
         </Stack>
       </Section>
+      <Section
+        bg={bgLight}
+        sectionStyle={{
+          paddingTop: "3em",
+          paddingBottom: "1em",
+        }}
+      >
+        <VStack
+            textAlign={"center"}
+            width={{ base: "99%", md: "6xl" }}
+            m={"auto"}
+            spacing={"2em"}
+          >
+            <SimpleText>
+              Recent Work
+            </SimpleText>
+            <HeadingTitle3 color={primaryColor}>
+              Seeing our clients win is what gets us excited.
+            </HeadingTitle3>
+          </VStack>
+          <SimpleCard2 />
+      </Section>
+      <Section>
+        <Testimonial />
+      </Section>
+      {/* <Section 
+      py={"3em"}
+      bg={bgLight}
+      >
+      <VStack
+            textAlign={"center"}
+            width={{ base: "99%", md: "6xl" }}
+            m={"auto"}
+          >
+            <HeadingTitle5 color={primaryColor}>
+              LET'S TALK ABOUT YOUR GOALS
+            </HeadingTitle5>
+            <SimpleText>
+              Tap into the potential of strategic website design.
+            </SimpleText>
+          </VStack>
+        <Stack 
+          minH={""} 
+          direction={{ base: "column", md: "row" }} mt={{ base: '4em', md: '2em' }} alignItems={'center'}>
+          <Flex 
+            pl={8} 
+            pr={8} 
+            flex={1} 
+            align={"center"} 
+            justify={"center"}
+            direction={"column"}
+          >
+            <Stack 
+              justifyItems={"center"}  
+              spacing={2} w={"full"} 
+              maxW={"lg"}
+              mb={'3em'}
+            >
+              <HeadingTitle4
+                color={primaryColor}
+              >
+                Schedule time to talk
+              </HeadingTitle4>
+              <SimpleText2>
+                Speak to an expert and hear for yourself how our digital services can help your business grow and succeed. Ready? Grab a block of time.
+              </SimpleText2>
+              <p
+                style={{
+                  color:`${secondaryColor}`,
+                  cursor: "pointer",
+                  fontSize: '18px',
+                  textDecorationLine: 'underline',
+                  width: '150px'
+                }}
+              >
+                Learn more
+              </p>
+            </Stack>
+            <Stack 
+              justifyItems={"center"}  
+              spacing={2} w={"full"} 
+              maxW={"lg"}
+              mb={'3em'}
+            >
+              <HeadingTitle4
+                color={primaryColor}
+              >
+                Get a FREE Strategy Session
+              </HeadingTitle4>
+              <SimpleText2>
+                Speak to an expert and hear for yourself how our digital services can help your business grow and succeed. Ready? Grab a block of time.
+              </SimpleText2>
+              <p
+                style={{
+                  color:`${secondaryColor}`,
+                  cursor: "pointer",
+                  fontSize: '18px',
+                  textDecorationLine: 'underline',
+                  width: '150px'
+                }}
+              >
+                Learn more
+              </p>
+            </Stack>
+          </Flex>
+          <Flex 
+            flex={1} 
+            borderRadius={"full"}  
+            pl={'2em'}
+            pr={'2em'}
+          >
+            <Image
+              alignSelf={'center'}
+              borderRadius={'20px'}
+              // width={'100%'}
+              alt={"Login Image"}
+              src={goals}
+            />
+          </Flex>
+        </Stack>
+        <Newsletter />
+      </Section> */}
+      <BNewsletter />
+      <Footer />
     </>
   );
 }

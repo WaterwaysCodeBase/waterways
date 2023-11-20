@@ -14,3 +14,18 @@ export const SimpleText = ({ children, textAlign, color }) => {
     </Text>
   );
 };
+
+export const SimpleText2 = ({ children, textAlign, color }) => {
+  return (
+    <Text
+      fontSize={"18px"}
+      fontFamily={"Quicksand"}
+      fontWeight={"400"}
+      lineHeight={"1em"}
+      textAlign={textAlign}
+      color={color}
+    >
+      {children}
+    </Text>
+  );
+};

@@ -1,0 +1,65 @@
+.wtw_services {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: flex-start;
+}
+
+.wtw_services h1 {
+    font-family: Quicksand;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 55px;
+
+    color: #6404A3;
+}
+
+.wtw_services span {
+    display: flex;
+    padding: 5px;
+    font-family: Quicksand;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 30px;
+    background: #F5E6FE;
+    max-width: 550px;
+    
+    color: #363636;
+}
+
+.wtw_services-section {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.wtw_services-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.wtw_services-box h4 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 600;
+    color: #6404A3;
+    line-height: 25px;
+}
+
+.wtw_services-box p {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: #181818;
+}

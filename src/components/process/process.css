@@ -1,0 +1,76 @@
+.wtw_process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5E6FE;
+    padding-top: 60px;
+}
+
+.wtw-process-section {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    gap: 5rem;
+}
+
+.wtw_process-text {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.wtw_process-text h4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 42px;
+
+    color: #6404A3;
+}
+
+.wtw_process-text p {
+    font-family: Quicksand;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.wtw_process-image {
+    flex: 2;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wtw_process-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wtw_process hr {
+    border: 1px dashed #000000;
+    width: 100%;
+}
+
+.wtw_process hr:last-child {
+    display: none;
+}
+
+.wtw_process-button {
+    padding: 0 60px;
+    align-self: flex-start;
+    background-color: #F5E6FE;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 800px) {
+    .wtw-process-section {
+        flex-direction: column-reverse;
+    }
+}
