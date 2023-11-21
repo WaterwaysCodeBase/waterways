@@ -55,6 +55,14 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 27px;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
 
-    color: #FE7200;
+    color: #000000;
+}
+
+.wtw_project2 a:hover {
+    background: #F5E6FE;
+    transition: 1000ms ease-in-out;
 }

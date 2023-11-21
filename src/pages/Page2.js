@@ -49,6 +49,7 @@ import Project from '../components/project/Project';
 import BNewsletter from '../components/bNewsletter/BNewsletter';
 import Project2 from '../components/project2/Project2';
 import Footer from '../components/footer/Footer';
+import Goals2 from '../components/goals2/Goals2';
 
 const Page2 = () => {
   return (
@@ -97,7 +98,7 @@ const Page2 = () => {
             <Box flex={1}></Box>
             </Flex>
         </Section>   
-      <Goals /> 
+      <Goals2 /> 
       <Process /> 
       <Project2 />
       <BNewsletter />

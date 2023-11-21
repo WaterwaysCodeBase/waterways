@@ -15,9 +15,9 @@ export default function App() {
   return (
     <ChakraProvider>
       <Header />
-      {/* <Home /> */}
+      <Home />
       {/* <Page1 /> */}
-      <Page2 />
+      {/* <Page2 /> */}
     </ChakraProvider>
   );
 }
