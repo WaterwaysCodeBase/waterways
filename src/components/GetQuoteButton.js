@@ -31,8 +31,29 @@ export const GetQuoteButton = () => {
 export const CustumButton = ({ label, color, bg }) => {
   return (
     <Button
+      alignSelf={'auto'}
+      bg={bg}
+      justifySelf={"center"}
+      py={"1.5em"}
+      px={"2em"}
+      color={color}
+      _hover={{
+        bg: bgTertairy,
+        color: textPrimary,
+      }}
+    >
+      {label}
+    </Button>
+  );
+};
+
+export const CustumButton2 = ({ label, color, bg }) => {
+  return (
+    <Button
       alignSelf={"center"}
       bg={bg}
+      border={'1px'}
+      borderColor={"#00000"}
       justifySelf={"center"}
       py={"1.5em"}
       px={"2em"}

@@ -1,0 +1,109 @@
+.wtw_game {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.wtw_game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: #D4B3E9;
+    border-radius: 20px;
+}
+
+.wtw_game-section h1:first-child {
+    font-family: Quicksand;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+    color: #6404A3;
+}
+
+.wtw_game-section h1:nth-child(2) {
+    width: 80%;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 59px; 
+
+    color: #242529;
+    margin-bottom: 2rem;
+}
+
+.wtw_game-buttons {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.wtw_game-img {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.wtw_game-img img {
+    width: 100%;
+}
+
+.wtw_game-about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 6rem;
+    margin-top: 4rem;
+}
+
+.wtw_game-aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    flex: 1;
+}
+
+.wtw_game-aboutUs h3 {
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 29px;  
+    color: #6404A3;
+}
+
+.wtw_game-aboutUs p {
+    font-family: Quicksand;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 34px;  
+    color: #3C3D44;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .wtw_game {
+        padding: 20px;
+    }
+
+    .wtw_game-buttons {
+        flex-direction: column;
+    }
+
+    .wtw_game-about {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .wtw_game-section h1:first-child {
+        font-size: 44px;
+    }
+    
+    .wtw_game-section h1:nth-child(2) {
+        font-size: 46px;
+        line-height: 52px; 
+    }
+}

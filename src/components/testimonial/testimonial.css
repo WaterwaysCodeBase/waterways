@@ -1,6 +1,10 @@
 .wtw_testimonial {
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.nasir {  
+  display: flex;
 }
 
 .wtw_testimonial h3 {
@@ -18,14 +22,16 @@
 
 .wtw_testimonial-section {
     display: flex;
-    padding: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
     gap: 20px;
 }
 
 .wtw_testimonial-image {
     flex: 2;
     display: flex;
-    max-width: 400px;
+    max-width: 450px;
     align-items: center;
     justify-content: center;
 }

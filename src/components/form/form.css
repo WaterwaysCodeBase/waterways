@@ -1,0 +1,127 @@
+.wtw_form {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    background: #6404A3;
+    gap: 2rem;
+}
+
+.wtw_form-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wtw_form-image h1 {
+    font-family: Quicksand;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    color: #F5E6FE;
+    margin-bottom: 1rem;
+}
+
+.wtw_form-image p {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;    
+    
+    color: #F5E6FE;
+    margin-bottom: 1rem;
+}
+
+.wtw_form-input {
+    flex: 1;
+    display: flex;
+}
+
+.wtw_form-input form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.wtw_form-double {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.wtw_form-single {
+    gap: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wtw_form-single label {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;    
+
+    color: #F1F2F3;
+}
+
+.wtw_form-single input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.wtw_form-input textarea {
+    min-height: 100px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.wtw_form-input button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background: #FE7200;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;  
+}
+
+.wtw_form-input button:hover {
+    background: #FFF1E5;
+    color: #6404A3;
+    transition: 200ms ease-in;
+}
+
+@media screen and (max-width: 800px) {
+    .wtw_form {
+        padding: 20px;
+    }
+
+    .wtw_form-image {
+        display: none;
+        visibility: hidden;
+    }
+
+    .wtw_form-double {
+        flex-direction: column;
+    }
+}

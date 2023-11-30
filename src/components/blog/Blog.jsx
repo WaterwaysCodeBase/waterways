@@ -1,11 +1,14 @@
 import React from 'react'
-import './slider.css'
+import './blog.css'
+import Slider from '../slider/Slider'
+
 import { homeSliderConent } from '../../utils/data'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+
 import img1 from '../../img/img1.jpg'
 
-const Slider = () => {
+const Blog = () => {
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -26,20 +29,22 @@ const Slider = () => {
         }
       };
   return (
-      <div className='wtw_slider-main'>
+    <div className='wtw_blog'>
+        <h1>Blog</h1>
+        <span>Dolore dolore voluptate aliqua ut mi</span>
         <Carousel responsive={responsive}>
             {homeSliderConent.map((d) => (
-            <div className='wtw_slider'>
-                <img className='wtw_slider-img' src={d.image} alt="" />
-                <div className="wtw_slider-text">
+            <div className='wtw_blog-slider'>
+                <img className='wtw_blog-img' src={d.image} alt="" />
+                <div className="wtw_blog-text">
                     <h2>{d.title}</h2>
                     <p>{d.text}</p>
                 </div>
             </div>
             ))}
         </Carousel>
-      </div>
+    </div>
   )
 }
 
-export default Slider
+export default Blog

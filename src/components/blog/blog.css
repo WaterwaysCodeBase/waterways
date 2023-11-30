@@ -1,0 +1,67 @@
+.wtw_blog {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background: #F5E6FE;
+}
+
+.wtw_blog h1 {
+    font-family: Quicksand;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;   
+    color: black; 
+}
+
+.wtw_blog span {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center; 
+    color: black;  
+    margin-bottom: 2rem; 
+}
+
+.wtw_blog-slider {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 460px;
+    max-width: 340px;
+}
+
+.wtw_blog-slider img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    flex: 2.5;
+}
+
+.wtw_blog-text {
+    width: 100%;
+    flex: 1.5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #E4CCF3;
+    border-radius: 0 0 20px 20px;
+    align-items: center;
+}
+
+.wtw_blog-text h2 {
+    color: #0F0F0F;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.wtw_blog-text p {
+    color: #0F0F0F;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+}

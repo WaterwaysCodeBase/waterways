@@ -1,0 +1,106 @@
+.wtw_session {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+}
+
+.wtw_session h5 {
+    width: 80%;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 2rem;    
+    color: #6404A3;
+}
+
+.wtw_session h1 {
+    width: 90%;
+    font-family: Quicksand;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;   
+    color: #6404A3; 
+}
+
+.wtw_session h1 span {
+    color: #FE7200;
+}
+
+.wtw_session p {
+    width: 90%;
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333; 
+    margin-bottom: 2rem;   
+}
+
+.wtw_session-expect {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.wtw_session-image {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.wtw_session-expect h3 {
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6404A3;   
+    margin-bottom: 1rem; 
+}
+
+.wtw_session-list {
+    flex: 1;
+}
+
+.wtw_session-expect li {
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;   
+    margin-bottom: 1.5rem; 
+}
+
+@media screen and (max-width: 800px) {
+    .wtw_session {
+        padding: 20px;
+    }
+
+    .wtw_session-expect {
+        flex-direction: column;
+    }
+
+    .wtw_session h1 {
+        width: 100%;
+    }
+    
+    .wtw_session p {
+        width: 100%;
+    }
+
+    .wtw_session-list {
+        padding: 20px;
+    }
+}

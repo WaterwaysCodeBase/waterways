@@ -1,0 +1,110 @@
+.wtw_team {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px 0 60px;
+    background: #6404A3;
+}
+
+.wtw_team h1 {
+    font-family: Quicksand;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #F1F2F3;
+}
+
+.wtw_team p {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;    
+    
+    color: #F1F2F3;
+    margin-bottom: 4rem;
+}
+
+.wtw_team-slider {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.wtw_team-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.wtw_team-member {
+    height: 402px;
+    width: 276px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.wtw_team-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: #FFFFFF;
+}
+
+.wtw_team-info a {
+    font-family: Quicksand;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;   
+    
+    color: black;
+}
+
+.wtw_team-info span {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;  
+    
+    color: #6404A3;
+    margin-bottom: 1rem;
+}
+
+.wtw_team-icon {
+    display: flex;
+    gap: 10px;
+    color: #255ABB;
+}
+
+.wtw_team-arrow {
+    display: flex;
+    gap: 4rem;
+    align-self: center;
+}
+
+.wtw_team-arrow p {
+    font-family: Quicksand;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center; 
+    color: #FEC696;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .wtw_team {
+        padding: 20px 20px 0 20px;
+    }
+}

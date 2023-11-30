@@ -33,6 +33,7 @@ const BNewsletter = () => {
             pl={8} 
             pr={8} 
             flex={1} 
+            alignSelf={"center"} 
             align={"center"} 
             justify={"center"}
             direction={"column"}

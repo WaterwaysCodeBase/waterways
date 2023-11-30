@@ -1,0 +1,52 @@
+.wtw_spot {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background: #FFF1E5;
+}
+
+.wtw_spot h5 {
+    font-family: Quicksand;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 2rem;    
+    color: #6404A3;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.wtw_spot h1 {
+    font-family: Quicksand;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;    
+    margin-bottom: 2rem;
+}
+
+.wtw_spot p {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.wtw_spot p span {
+    font-weight: 700;
+}
+
+.wtw_spot-warning {
+    color: #FE7200;
+}
+
+.wtw_spot-button {
+    align-self: flex-end;
+    margin-top: 2rem;
+}
