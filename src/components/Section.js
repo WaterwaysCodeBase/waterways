@@ -12,7 +12,7 @@ const Section = ({
   py,
   h,
   dir,
-  minH,
+  minH, mx
 }) => {
   const sectionStyles = {
     background: bg, // Background color
@@ -26,7 +26,8 @@ const Section = ({
       style={sectionStyles}
       id={id}
       minH={minH}
-      py={py}
+      py={py == null ? '5em' : py}
+      mx={mx == null ? 'auto' : mx}
       pt={pt}
       mt={mt}
       height={h}
