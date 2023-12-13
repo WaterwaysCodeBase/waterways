@@ -1,23 +1,18 @@
 import * as React from "react";
-
-import goals from '../img/goals.png'
-
 // 1. import `ChakraProvider` component
 import {
   Box,
-  Button,
-  Container,
+
   Flex,
-  GridItem,
+
   Icon,
   Image,
-  Link,
+
   SimpleGrid,
   Stack,
   Text,
   VStack,
-  background,
-  textDecoration,
+
 } from "@chakra-ui/react";
 import Section from "../components/Section";
 import TypingEffect from "../components/TypingEffect";
@@ -25,7 +20,7 @@ import TypingEffect from "../components/TypingEffect";
 import {
   bgLight,
   bgPrimary,
-  bgTertairy,
+
   primaryColor,
   secondaryColor,
   textPrimary,
@@ -39,44 +34,38 @@ import {
   HeadingTitle,
   HeadingTitle2,
   HeadingTitle3,
-  HeadingTitle4,
-  HeadingTitle5,
+
 } from "../components/HeadingTitle";
 import {
-  Bs0Circle,
-  BsBootstrap,
-  BsCloudArrowDown,
-  BsCloudArrowDownFill,
-  BsFill0CircleFill,
+
   BsGlobe,
-  BsLock,
+
   BsPersonVcard,
 } from "react-icons/bs";
-import { SimpleText, SimpleText2 } from "../components/TextStyles";
+import { SimpleText } from "../components/TextStyles";
 import SimpleCard from "../components/SimpleCard";
 import { homeCardContent } from "../utils/data";
-import PostSlideWithImage from "../components/PostSlides";
+
 import Slider from "../components/slider/Slider";
 import SimpleCard2 from "../components/simplecard2/SimpleCard2";
 import Testimonial from "../components/testimonial/Testimonial";
-import { color } from "framer-motion";
-import Newsletter from "../components/newsletter/Newsletter";
-import Footer from "../components/footer/Footer";
+
 import BNewsletter from "../components/bNewsletter/BNewsletter";
+import GeneralPageLayout from "../components/layout/GeneralPageLayout";
 
 export default function Home() {
   const words = ["Excellence ", "Innovation ", "Trust ", "Impact "];
   return (
-    <>
+    <GeneralPageLayout>
       <Section
         id={"Home"}
         bg={"white"}
         h={{ sm: "100vh", md: "auto" }}
         mt={{ base: "-4em", md: "-5.79em" }}
         pt={{ base: "7em", md: "10em" }}
-        // sectionStyle={{
-        //   paddingTop: ,
-        // }}
+      // sectionStyle={{
+      //   paddingTop: ,
+      // }}
       >
         <Flex
           pb={"5em"}
@@ -254,7 +243,7 @@ export default function Home() {
             justify={"start"}
             gap={{ base: "3em", md: "1em" }}
           >
-            <SimpleGrid columns={{base: 1, md: 3}} spacing={"2em"}>
+            <SimpleGrid columns={{ base: 1, md: 3 }} spacing={"2em"}>
               <SimpleCard content={homeCardContent} />
             </SimpleGrid>
           </Flex>
@@ -295,7 +284,7 @@ export default function Home() {
                 Agencies
               </HeadingTitle3>
               <Box>
-              <CustumButton
+                <CustumButton
                   bg={secondaryColor}
                   color={"white"}
                   label={"Learn more >>"}
@@ -323,25 +312,25 @@ export default function Home() {
         }}
       >
         <VStack
-            textAlign={"center"}
-            width={{ base: "99%", md: "6xl" }}
-            m={"auto"}
-            spacing={"2em"}
-          >
-            <SimpleText>
-              Recent Work
-            </SimpleText>
-            <HeadingTitle3 color={primaryColor}>
-              Seeing our clients win is what gets us excited.
-            </HeadingTitle3>
-          </VStack>
-          <SimpleCard2 />
+          textAlign={"center"}
+          width={{ base: "99%", md: "6xl" }}
+          m={"auto"}
+          spacing={"2em"}
+        >
+          <SimpleText>
+            Recent Work
+          </SimpleText>
+          <HeadingTitle3 color={primaryColor}>
+            Seeing our clients win is what gets us excited.
+          </HeadingTitle3>
+        </VStack>
+        <SimpleCard2 />
       </Section>
       <Section>
         <Testimonial />
       </Section>
-      <BNewsletter />
-      <Footer />
-    </>
+
+
+    </GeneralPageLayout>
   );
 }

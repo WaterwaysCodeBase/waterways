@@ -15,10 +15,10 @@ import {
   useDisclosure,
   Container,
   Image,
+  Link,
 } from "@chakra-ui/react";
 
 import { BsArrowLeft, BsArrowRight, BsList, BsXLg } from "react-icons/bs";
-import Section from "../Section";
 
 import { bgLight, bgTertairy } from "../Colors";
 import { LogoRectPurple, LogoRectWhite, LogoSquarePurple } from "../Logo";
@@ -27,17 +27,10 @@ const Header = () => {
   const { isOpen, onToggle } = useDisclosure();
   return (
     <>
-      <Section
-        bg={useColorModeValue("transparent", "gray.800")}
-        rest={{
-          zIndex: 1,
-          // borderBottom: 1,
-          // borderStyle: "solid",
-          // borderColor: useColorModeValue("gray.200", "gray.900"),
-        }}
+      <Box
       >
         <Flex
-       
+
           w={"90%"}
           m={"auto"}
           display={{ base: "none", md: "flex" }}
@@ -52,7 +45,9 @@ const Header = () => {
               fontFamily={"heading"}
               color={useColorModeValue("gray.800", "white")}
             >
-              <LogoRectPurple />
+              <Link href="/">
+                <LogoRectPurple />
+              </Link>
             </Text>
           </Flex>
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -65,13 +60,17 @@ const Header = () => {
           display={{ base: "flex", md: "none" }}
           alignContent={"center"}
         >
-          <Flex flex={1} justify={"flex-start"} alignSelf={"center"}>
+          <Flex flex={1} justify={"flex-start"} alignSelf={"center"}
+
+          >
             <Text
               textAlign={useBreakpointValue({ base: "center", md: "left" })}
               fontFamily={"heading"}
               color={useColorModeValue("gray.800", "white")}
             >
-              <LogoRectPurple />
+              <Link href="/">
+                <LogoRectPurple />
+              </Link>
             </Text>
           </Flex>
           <Flex flex={1} justify={"flex-end"} alignSelf={"center"}>
@@ -93,7 +92,7 @@ const Header = () => {
         <Collapse in={isOpen} animateOpacity>
           <MobileNav />
         </Collapse>
-      </Section>
+      </Box>
     </>
   );
 };
@@ -266,44 +265,49 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label: "Website Design",
-        subLabel: "Trending Design to inspire you",
-        href: "#",
+        subLabel: "From concept and strategy",
+        href: "/services/website-design",
       },
       {
         label: "Branding & Grpahics",
         subLabel: "Up-and-coming Designers",
-        href: "#",
+        href: "/services/branding-and-design",
       },
       {
         label: "General Printing",
-        subLabel: "Up-and-coming Designers",
-        href: "#",
+        subLabel: "Quality Printing Services",
+        href: "/services/general-printing",
       },
     ],
   },
   {
     label: "Portfolio",
+    subLabel: "Find your dream design job",
+    href: "/portfolio",
+  },
+  {
+    label: "Our Product",
     children: [
       {
-        label: "Job Board",
-        subLabel: "Find your dream design job",
+        label: "Purple Balance",
+        subLabel: "The home of Finance",
         href: "#",
       },
       {
-        label: "Freelance Projects",
-        subLabel: "An exclusive list for contract work",
+        label: "Purple Trend",
+        subLabel: "News on the Go",
         href: "#",
       },
     ],
   },
   {
-    label: "Our Product",
-    href: "#",
+    label: "About Us",
+    href: "/about-us",
   },
   {
-    label: "About Us",
-    href: "#",
-  },
+    label: 'Contact Us',
+    href: '/contact-us'
+  }
 ];
 
 export default Header;

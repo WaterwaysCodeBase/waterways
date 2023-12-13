@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 60px;
+    padding: 0px 60px 60px 60px;
 }
 
 .wtw_game-section {

@@ -3,10 +3,10 @@ import { Text } from "@chakra-ui/react";
 export const SimpleText = ({ children, textAlign, color }) => {
   return (
     <Text
-      fontSize={"1.4375rem"}
+      fontSize={"14pt"}
       fontFamily={"Quicksand"}
       fontWeight={"500"}
-      lineHeight={"1.5em"}
+  
       textAlign={textAlign}
       color={color}
     >
@@ -18,10 +18,10 @@ export const SimpleText = ({ children, textAlign, color }) => {
 export const SimpleText2 = ({ children, textAlign, color }) => {
   return (
     <Text
-      fontSize={"18px"}
+      fontSize={"14pt"}
       fontFamily={"Quicksand"}
-      fontWeight={"400"}
-      lineHeight={"1em"}
+      fontWeight={"normal"}
+  
       textAlign={textAlign}
       color={color}
     >

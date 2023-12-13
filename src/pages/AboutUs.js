@@ -5,18 +5,20 @@ import Blog from '../components/blog/Blog'
 import Development from '../components/development/Development'
 import Footer from '../components/footer/Footer'
 import BNewsletter from '../components/bNewsletter/BNewsletter'
+import GeneralPageLayout from '../components/layout/GeneralPageLayout'
 
-const Page3 = () => {
+const AboutUs = () => {
   return (
-    <>
+    <GeneralPageLayout>
+      <>
         <Game />
         <Team />
         <Blog />
         <Development />
-        <BNewsletter />
-        <Footer />
-    </>
+       
+      </>
+    </GeneralPageLayout>
   )
 }
 
-export default Page3
+export default AboutUs

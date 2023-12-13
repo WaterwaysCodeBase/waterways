@@ -22,8 +22,10 @@ export const GetQuoteButton = () => {
         bg: bgTertairy,
         color: textPrimary,
       }}
+      as={'a'}
+      href="/get-started"
     >
-      Get Quote
+      Get Started
     </Button>
   );
 };
