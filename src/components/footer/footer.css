@@ -71,6 +71,7 @@
     padding: 30px 60px;
     color: #F5E6FE;
     justify-content: space-between;
+    gap: 2rem;
     flex-wrap: wrap;
     border-top: 1px solid #F5E6FE;
 }
@@ -88,13 +89,17 @@
     gap: 5px;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 800px) {
     .wtw_footer {
-        padding: 40px;
+        padding: 20px;
     }
 
     .wtw_footer-header {
         display: flex;
         flex-direction: column;
+    }
+
+    .wtw_copyright {
+        padding: 30px 20px;
     }
 }

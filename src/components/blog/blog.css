@@ -65,3 +65,9 @@
     font-weight: 400;
     line-height: 140%;
 }
+
+@media screen and (max-width: 800px) {
+    .wtw_blog {
+        padding: 20px;
+    }
+}

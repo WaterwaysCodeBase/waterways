@@ -106,4 +106,18 @@
         font-size: 46px;
         line-height: 52px; 
     }
+
+    .wtw_game-section {
+        padding: 10px;
+    }
+
+    .wtw_game-section h1:first-child {
+        font-size: 40px;
+    }
+    
+    .wtw_game-section h1:nth-child(2) {
+        width: 100%;
+        font-size: 40px;
+        line-height: 50px; 
+    }
 }

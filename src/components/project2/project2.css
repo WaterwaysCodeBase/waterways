@@ -20,6 +20,7 @@
     font-weight: 400;
     line-height: 20px;
     align-self: center;
+    text-align: center;
 }
 
 .wtw_project2-section {
@@ -65,4 +66,15 @@
 .wtw_project2 a:hover {
     background: #F5E6FE;
     transition: 1000ms ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+    .wtw_project2 {
+        padding: 20px;
+    }
+
+    .wtw_project2 h1 {
+        font-size: 36px;
+        line-height: 55px;
+    }    
 }

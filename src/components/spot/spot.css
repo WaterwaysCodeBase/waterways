@@ -50,3 +50,9 @@
     align-self: flex-end;
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 800px) {
+    .wtw_spot {
+        padding: 20px;
+    }
+}
