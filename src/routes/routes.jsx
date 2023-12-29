@@ -1,8 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
-import WebsiteDesign from "../pages/our-services/WebsiteDesign";
-import "./../App.css";
-import 'hover.css/css/hover-min.css';
+import WebsiteDesign from "../pages/our-services/WebsiteDesign"
 import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/ContactUs";
 import GeneralPrinting from "../pages/our-services/GeneralPrinting";

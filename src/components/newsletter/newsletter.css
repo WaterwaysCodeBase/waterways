@@ -13,37 +13,6 @@
     display: flex;
 }
 
-.wtw_newsletter-email input {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    flex: 3;
-    background: transparent;
-    border: 1px solid #525252;
-    border-radius: 10px 0 0 10px;
-}
-
-.wtw_newsletter-email input::placeholder {
-    display: flex;
-    text-align: center;
-    font-family: Quicksand;
-    font-size: 23px;
-    font-weight: 500;
-    line-height: 34px;
-    color: #656A6F;
-}
-
-.wtw_newsletter-email button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background: #6404A3;
-    border-radius: 0px 10px 10px 0px;
-    flex: 1;
-}
-
 .wtw_newsletter-input a {
     display: flex;
     align-items: center;
