@@ -14,6 +14,7 @@ import img1 from '../img/img1.jpg'
 import process1 from '../img/image 5.png'
 import process2 from '../img/image 6.png'
 import process3 from '../img/image 7.png'
+import process4 from '../img/process4.jpg'
 
 export const homeCardContent = [
   {
@@ -66,6 +67,26 @@ export const processContent = [
     image: process1,
     icon: Bs1SquareFill,
     title: 'Web Strategy',
+    text: `Your brand goes beyond logo and colours. It involves your messaging, your voice, your tone, and your culture. It also needs to be consistent. Through clearly defined brand guidelines, we will help you ensure that your brand is used the right way – every time.`
+  },
+  {
+    image: process2,
+    icon: Bs2SquareFill,
+    title: 'Design of your Brand Identity',
+    text: `At this step, we begin work on the logo. Based on what we’ve achieved in the first step, we explore multiple concepts, colours and typefaces to create options for your brand identity. We share these with you, and work together to ensure you are perfectly satisfied. The final logo is then sent to you in multiple formats – for both print and digital use.`
+  },
+  {
+    image: process3,
+    icon: Bs3SquareFill,
+    title: 'Collateral Design',
+    text: `Once you are pleased with your logo, we begin work on all the additional stationery or collateral you need. Examples of collateral will include business cards, letterhead, roll-up banners, flyers, invoices/receipts, envelopes, icons, social media covers, email signature, email templates, … basically everything that involves your new brand identity.`
+  },
+]
+export const process2Content = [
+  {
+    image: process1,
+    icon: Bs1SquareFill,
+    title: 'Creation of Your Brand Strategy',
     text: `We start by understanding your business – your brand, history, unique selling points, competitors and of course, your goals. We review your existing website (if you have one), and then familiarize ourselves with your industry to understand best practices.
     We also make sure we understand the goals of your target audience – this is critical to the success of your website.
     Finally, we come up with a plan for the website – the architecture, wireframes, and content.`
@@ -83,6 +104,12 @@ export const processContent = [
     title: 'Development',
     text: `Once we have nailed the design, we move on to the development phase where we build the website theme, add your content, and ensure everything works perfectly.
     In addition to this, if required, we handle complex integrations involving APIs, portals and CRMs.`
+  },
+  {
+    image: process4,
+    icon: Bs4SquareFill,
+    title: 'Brand Guideline Development',
+    text: `Finally, we create your brand guidelines – an important document that contains a breakdown of the brand identity, the fonts used, and the color codes. Your brand guidelines document will also contain instructions on how to (and how not to) use your logo.`
   },
 ]
 

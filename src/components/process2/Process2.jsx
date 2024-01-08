@@ -1,33 +1,32 @@
 import React from 'react'
-import './process.css'
+import './process2.css'
 
 import { primaryColor, secondaryColor } from '../Colors'
 import { HeadingTitle5 } from '../HeadingTitle'
 import { SimpleText } from '../TextStyles'
-import { processContent } from '../../utils/data'
+import { process2Content, processContent } from '../../utils/data'
 
 import { CustumButton } from '../GetQuoteButton';
 import { Box } from '@chakra-ui/react'
 
-
-const Process = () => {
+const Process2 = () => {
   return (
     <>
-        <div className="wtw_process">
+        <div className="wtw_process2">
             <HeadingTitle5 color={primaryColor}>
               Our Process
             </HeadingTitle5>
             <SimpleText>
-              A growth-driven approach to website design.
+                A strategic approach to branding and design
             </SimpleText>
-            {processContent.map((d) => (
+            {process2Content.map((d) => (
               <>
-              <div className="wtw-process-section">
-                <div className="wtw_process-text">
+              <div className="wtw-process2-section">
+                <div className="wtw_process2-text">
                   <h4><d.icon />{d.title}</h4>
                   <p>{d.text}</p>
                 </div>
-                <div className="wtw_process-image">
+                <div className="wtw_process2-image">
                   <img src={d.image} alt="" />
                 </div>
               </div>
@@ -35,7 +34,7 @@ const Process = () => {
               </>
             ))}
         </div> 
-        <div className="wtw_process-button">
+        <div className="wtw_process2-button">
         <Box>
           <CustumButton
               bg={secondaryColor}
@@ -48,4 +47,4 @@ const Process = () => {
   )
 }
 
-export default Process
+export default Process2
