@@ -11,7 +11,7 @@ const Newsletter = () => {
       <div className="wtw_newsletter-input">
         <div className="wtw_newsletter-email">
         </div>
-        <a href='#Home'><BsArrowUp />Back to Top</a>
+        <a href='#Header'><BsArrowUp />Back to Top</a>
       </div>
     </div>
   )

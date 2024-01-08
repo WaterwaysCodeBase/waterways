@@ -6,6 +6,7 @@ import ContactUs from "../pages/ContactUs";
 import GeneralPrinting from "../pages/our-services/GeneralPrinting";
 import Portfolio from "../pages/Portfolio";
 import GetStarted from "../pages/GetStarted";
+import BrandingAndDesign from "../pages/our-services/BrandingAndDesign";
 export const AppRoutes = () => {
 	return (
 		<BrowserRouter>
@@ -20,7 +21,7 @@ export const AppRoutes = () => {
 				/>
 				<Route
 					path="/services/branding-and-design"
-					element={<WebsiteDesign />}
+					element={<BrandingAndDesign />}
 				/>
 				<Route
 					path="/services/general-printing"

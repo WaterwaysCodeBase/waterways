@@ -33,6 +33,7 @@ const Header = () => {
 
           w={"90%"}
           m={"auto"}
+          id="Header"
           display={{ base: "none", md: "flex" }}
           color={useColorModeValue("gray.600", "white")}
           // minH={"60px"}

@@ -37,9 +37,9 @@ const PortfolioPage = () => {
                 <button>View project <BsArrowRightShort /></button>
             </div>
             <div className="wtw_ptf-section_img">
-                <img src={image57} alt="" />
-                <img src={image58} alt="" />
-                <img src={image59} alt="" />
+                <div><img src={image57} alt="" /></div>
+                <div><img src={image58} alt="" /></div>
+                <div><img src={image59} alt="" /></div>
             </div>
         </div>
         <div className="wtw_ptf-section1">
@@ -50,8 +50,8 @@ const PortfolioPage = () => {
                 <button>View project <BsArrowRightShort /></button>
             </div>
             <div className="wtw_ptf-section_img">
-                <img src={image60} alt="" />
-                <img src={image61} alt="" />
+                <div><img src={image60} alt="" /></div>
+                <div><img src={image61} alt="" /></div>
             </div>
         </div>
         <div className="wtw_ptf-section">
@@ -62,9 +62,9 @@ const PortfolioPage = () => {
                 <button>View project <BsArrowRightShort /></button>
             </div>
             <div className="wtw_ptf-section_img">
-                <img src={image62} alt="" />
-                <img src={image63} alt="" />
-                <img src={image64} alt="" />
+                <div><img src={image62} alt="" /></div>
+                <div><img src={image63} alt="" /></div>
+                <div><img src={image64} alt="" /></div>
             </div>
         </div>
         <div className="wtw_ptf-section1">
@@ -75,8 +75,8 @@ const PortfolioPage = () => {
                 <button>View project <BsArrowRightShort /></button>
             </div>
             <div className="wtw_ptf-section_img">
-                <img src={image66} alt="" />
-                <img src={image65} alt="" />
+                <div><img src={image66} alt="" /></div>
+                <div><img src={image65} alt="" /></div>
             </div>
         </div>
     </div>
