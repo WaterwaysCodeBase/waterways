@@ -6,6 +6,7 @@ import ContactUs from "../pages/ContactUs";
 import GeneralPrinting from "../pages/our-services/GeneralPrinting";
 import Portfolio from "../pages/Portfolio";
 import GetStarted from "../pages/GetStarted";
+import"../App.css"
 export const AppRoutes = () => {
 	return (
 		<BrowserRouter>
