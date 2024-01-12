@@ -6,11 +6,9 @@ import ContactUs from "../pages/ContactUs";
 import GeneralPrinting from "../pages/our-services/GeneralPrinting";
 import Portfolio from "../pages/Portfolio";
 import GetStarted from "../pages/GetStarted";
-<<<<<<< HEAD
 import"../App.css"
-=======
 import BrandingAndDesign from "../pages/our-services/BrandingAndDesign";
->>>>>>> 36bc480dedd08d353a68415fb4c237f073d36d84
+import Page4 from "../pages/Page4";
 export const AppRoutes = () => {
 	return (
 		<BrowserRouter>
@@ -45,7 +43,7 @@ export const AppRoutes = () => {
 				/>
 				<Route
 					path="/get-started"
-					element={<GetStarted />}
+					element={<Page4 />}
 				/>
 			</Routes>
 		</BrowserRouter>

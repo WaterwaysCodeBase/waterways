@@ -6,17 +6,18 @@ import Project2 from '../components/project2/Project2'
 import BNewsletter from '../components/bNewsletter/BNewsletter'
 import Footer from '../components/footer/Footer'
 import Form from '../components/form/Form'
+import GeneralPageLayout from '../components/layout/GeneralPageLayout'
 
 const Page4 = () => {
   return (
     <>
-        <Session />
-        <Form />
-        <Testimonial />
-        <Spot />
-        <Project2 />
-        <BNewsletter />
-        <Footer />
+      <GeneralPageLayout>
+          <Session />
+          <Form />
+          <Testimonial />
+          <Spot />
+          <Project2 />
+      </GeneralPageLayout>
     </>
   )
 }

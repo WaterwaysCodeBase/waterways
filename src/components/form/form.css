@@ -1,9 +1,18 @@
+.wtw_form-section {
+    background: #6404A3;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .wtw_form {
     display: flex;
     padding: 60px;
     align-items: center;
     background: #6404A3;
-    gap: 2rem;
+    gap: 4rem;
+    max-width: 1800px;
 }
 
 .wtw_form-image {

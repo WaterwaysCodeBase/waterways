@@ -1,8 +1,17 @@
+.wtw_spot-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFF1E5;
+    align-items: center;
+}
+
 .wtw_spot {
     display: flex;
     flex-direction: column;
     padding: 60px;
     background: #FFF1E5;
+    max-width: 1800px;
 }
 
 .wtw_spot h5 {
