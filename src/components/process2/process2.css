@@ -1,9 +1,18 @@
+.wtw_process2-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5E6FE;
+}
+
 .wtw_process2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #F5E6FE;
     padding-top: 60px;
+    max-width: 1800px;
 }
 
 .wtw-process2-section {

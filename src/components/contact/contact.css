@@ -1,9 +1,17 @@
+.wtw_contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
 .wtw_contact {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding: 0px 60px;
+    padding: 0px 20px;
 }
 
 .wtw_contact-section {
@@ -112,6 +120,7 @@
     flex-direction: column;
     align-items: center;
     padding: 60px;
+    max-width: 1800px;
 }
 
 .wtw_faq h1 {

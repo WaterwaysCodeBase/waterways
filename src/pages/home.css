@@ -1,0 +1,8 @@
+.wtw_home {
+    display: flex;
+    flex-direction: column;
+}
+
+.wtw_home-header {
+    max-width: 1400px;
+}

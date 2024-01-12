@@ -26,6 +26,7 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    max-width: 1800px;
 }
 
 .wtw_development-content img {

@@ -1,12 +1,10 @@
 import React from 'react'
 import './blog.css'
-import Slider from '../slider/Slider'
 
 import { homeSliderConent } from '../../utils/data'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-import img1 from '../../img/img1.jpg'
 
 const Blog = () => {
     const responsive = {
@@ -30,19 +28,21 @@ const Blog = () => {
       };
   return (
     <div className='wtw_blog'>
+      <div className="wtw_blog-section">
         <h1>Blog</h1>
         <span>Dolore dolore voluptate aliqua ut mi</span>
-        <Carousel responsive={responsive}>
-            {homeSliderConent.map((d) => (
-            <div className='wtw_blog-slider'>
-                <img className='wtw_blog-img' src={d.image} alt="" />
-                <div className="wtw_blog-text">
-                    <h2>{d.title}</h2>
-                    <p>{d.text}</p>
+          <Carousel responsive={responsive}>
+              {homeSliderConent.map((d) => (
+                <div className='wtw_blog-slider'>
+                  <img className='wtw_blog-img' src={d.image} alt="" />
+                  <div className="wtw_blog-text">
+                      <h2>{d.title}</h2>
+                      <p>{d.text}</p>
+                  </div>
                 </div>
-            </div>
-            ))}
-        </Carousel>
+              ))}
+          </Carousel>
+      </div>
     </div>
   )
 }

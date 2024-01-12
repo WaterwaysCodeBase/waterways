@@ -3,6 +3,8 @@
     padding: 60px;
     flex-direction: column;
     gap: 2rem;
+    width: 100%;
+    align-items: center;
 }
 
 .wtw_ptf-header {
@@ -41,7 +43,7 @@
 }
 
 .wtw_ptf-header_image {
-    justify-content: end;
+    justify-content: flex-end;
     display: flex;
     flex: 1;
 }

@@ -1,3 +1,10 @@
+.wtw_services-top {    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
 .wtw_services {
     display: flex;
     flex-direction: column;

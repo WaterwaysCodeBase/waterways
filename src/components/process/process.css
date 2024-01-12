@@ -1,9 +1,18 @@
+.wtw_process-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5E6FE;
+    width: 100%;
+}
+
 .wtw_process {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #F5E6FE;
     padding-top: 60px;
+    max-width: 1800px;
 }
 
 .wtw-process-section {
@@ -63,8 +72,11 @@
 }
 
 .wtw_process-button {
+    display: flex;
+    justify-content: center;
     padding: 0 60px;
-    align-self: flex-start;
+    align-self: center;
+    align-items: center;
     background-color: #F5E6FE;
     padding-bottom: 60px;
 }

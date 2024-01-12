@@ -13,6 +13,7 @@ import { Box } from '@chakra-ui/react'
 const Process = () => {
   return (
     <>
+      <div className="wtw_process-section">
         <div className="wtw_process">
             <HeadingTitle5 color={primaryColor}>
               Our Process
@@ -35,6 +36,7 @@ const Process = () => {
               </>
             ))}
         </div> 
+        </div>
         <div className="wtw_process-button">
         <Box>
           <CustumButton

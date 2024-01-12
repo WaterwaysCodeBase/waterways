@@ -3,6 +3,16 @@
     flex-direction: column;
     padding: 60px;
     background: #F5E6FE;
+    width: 100%;
+    align-items: center;
+}
+
+.wtw_blog-section {
+    max-width: 1800px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background: #F5E6FE;
 }
 
 .wtw_blog h1 {

@@ -1,3 +1,11 @@
+.wtw_goals2-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
 .wtw_header {
     display: flex;
     align-items: center;
@@ -19,6 +27,7 @@
     align-items: center;
     padding: 60px;
     background-color: #F2F2F2;
+    max-width: 1800px;
 }
 
 .wtw_goals2-left {

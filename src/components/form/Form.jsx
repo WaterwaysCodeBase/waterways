@@ -16,7 +16,7 @@ const Form = () => {
                     <div className="wtw_form-single">
                         <label>First name</label>
                         <input type="text" placeholder='Input text'/>
-                    </div>
+                    </div> 
                     <div className="wtw_form-single">
                         <label>Last name</label>
                         <input type="text" placeholder='Input text'/>

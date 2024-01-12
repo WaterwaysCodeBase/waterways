@@ -1,10 +1,15 @@
 .wtw_testimonial {
     position: relative;
+    flex-direction: column;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nasir {  
+.wtw_testimonial-top {  
   display: flex;
+  max-width: 1800px;
 }
 
 .wtw_testimonial h3 {

@@ -5,12 +5,17 @@
     padding: 60px;
 }
 
+.wtw_mainFooter {
+    display: flex;
+}
+
 .wtw_footer-header {
     display: flex;
     align-items: flex-start;
     margin-bottom: 1rem;
     gap: 1rem;
     color: #F5E6FE;
+    width: 100%;
 }
 
 .wtw_footer-header h2 {

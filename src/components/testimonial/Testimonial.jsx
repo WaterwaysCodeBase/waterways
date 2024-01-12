@@ -11,7 +11,7 @@ const Testimonial = () => {
   return (
     <div className='wtw_testimonial'>
     <h3>Testimonials</h3>
-        <div className="nasir">
+        <div className="wtw_testimonial-top">
             <div className="wtw_testimonial-section">
                 <div className="wtw_testimonial-image">
                     <img src={img2} alt="" />
