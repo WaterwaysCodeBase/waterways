@@ -7,6 +7,15 @@
     align-items: center;
 }
 
+.wtw_ptf-top {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1400px;
+    align-items: center;
+}
+
 .wtw_ptf-header {
     display: flex;
     align-items: center;
@@ -130,12 +139,12 @@
 }
 
 .wtw_ptf-section_img {
+    justify-content: center;
     width: 100%;
     flex: 1.5;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 5px;
+    gap: 2rem;
 }
 
 .wtw_ptf-section_img div:nth-child(1) {
@@ -179,7 +188,5 @@
     }
     .wtw_ptf-section_img div:nth-child(3) {
         transform: none;
-        display: none;
-        visibility: hidden;
     }
 }

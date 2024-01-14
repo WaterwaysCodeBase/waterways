@@ -20,7 +20,7 @@ const BNewsletter = () => {
         <Stack
           width={{ base: "99%", md: "85%" }} 
           m={"auto"} 
-          maxWidth={'1800px'}
+          maxWidth={'1400px'}
         >
         <VStack
               textAlign={"center"}

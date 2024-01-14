@@ -20,63 +20,65 @@ import {
 const PortfolioPage = () => {
   return (
     <div className='wtw_ptf'>
-        <div className="wtw_ptf-header">
-            <div className="wtw_ptf-header_text">
-                <h1>Portfolio</h1>
-                <p>Lorem occaecat proident excepteur commodo et nulla eiusmod. Elit esse aute officia dolor elit aute</p>
+        <div className="wtw_ptf-top">
+            <div className="wtw_ptf-header">
+                <div className="wtw_ptf-header_text">
+                    <h1>Portfolio</h1>
+                    <p>Lorem occaecat proident excepteur commodo et nulla eiusmod. Elit esse aute officia dolor elit aute</p>
+                </div>
+                <div className="wtw_ptf-header_image">
+                    <img src={arrow} alt="" />
+                </div>
             </div>
-            <div className="wtw_ptf-header_image">
-                <img src={arrow} alt="" />
+            <div className="wtw_ptf-section">
+                <div className="wtw_ptf-section_text">
+                    <h4>Pefume Rebranding</h4>
+                    <h2>Paris secrets</h2>
+                    <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
+                    <button>View project <BsArrowRightShort /></button>
+                </div>
+                <div className="wtw_ptf-section_img">
+                    <div><img src={image57} alt="" /></div>
+                    <div><img src={image58} alt="" /></div>
+                    <div><img src={image59} alt="" /></div>
+                </div>
             </div>
-        </div>
-        <div className="wtw_ptf-section">
-            <div className="wtw_ptf-section_text">
-                <h4>Pefume Rebranding</h4>
-                <h2>Paris secrets</h2>
-                <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
-                <button>View project <BsArrowRightShort /></button>
+            <div className="wtw_ptf-section1">
+                <div className="wtw_ptf-section_text">
+                    <h4>Tesla Web Design</h4>
+                    <h2>Oceanic feeling</h2>
+                    <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
+                    <button>View project <BsArrowRightShort /></button>
+                </div>
+                <div className="wtw_ptf-section_img">
+                    <div><img src={image60} alt="" /></div>
+                    <div><img src={image61} alt="" /></div>
+                </div>
             </div>
-            <div className="wtw_ptf-section_img">
-                <div><img src={image57} alt="" /></div>
-                <div><img src={image58} alt="" /></div>
-                <div><img src={image59} alt="" /></div>
+            <div className="wtw_ptf-section">
+                <div className="wtw_ptf-section_text">
+                    <h4>Swiss Brand Design</h4>
+                    <h2>Pure summer garden</h2>
+                    <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
+                    <button>View project <BsArrowRightShort /></button>
+                </div>
+                <div className="wtw_ptf-section_img">
+                    <div><img src={image62} alt="" /></div>
+                    <div><img src={image63} alt="" /></div>
+                    <div><img src={image64} alt="" /></div>
+                </div>
             </div>
-        </div>
-        <div className="wtw_ptf-section1">
-            <div className="wtw_ptf-section_text">
-                <h4>Tesla Web Design</h4>
-                <h2>Oceanic feeling</h2>
-                <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
-                <button>View project <BsArrowRightShort /></button>
-            </div>
-            <div className="wtw_ptf-section_img">
-                <div><img src={image60} alt="" /></div>
-                <div><img src={image61} alt="" /></div>
-            </div>
-        </div>
-        <div className="wtw_ptf-section">
-            <div className="wtw_ptf-section_text">
-                <h4>Swiss Brand Design</h4>
-                <h2>Pure summer garden</h2>
-                <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
-                <button>View project <BsArrowRightShort /></button>
-            </div>
-            <div className="wtw_ptf-section_img">
-                <div><img src={image62} alt="" /></div>
-                <div><img src={image63} alt="" /></div>
-                <div><img src={image64} alt="" /></div>
-            </div>
-        </div>
-        <div className="wtw_ptf-section1">
-            <div className="wtw_ptf-section_text">
-                <h4>Product Design</h4>
-                <h2>Fairy tales</h2>
-                <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
-                <button>View project <BsArrowRightShort /></button>
-            </div>
-            <div className="wtw_ptf-section_img">
-                <div><img src={image66} alt="" /></div>
-                <div><img src={image65} alt="" /></div>
+            <div className="wtw_ptf-section1">
+                <div className="wtw_ptf-section_text">
+                    <h4>Product Design</h4>
+                    <h2>Fairy tales</h2>
+                    <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
+                    <button>View project <BsArrowRightShort /></button>
+                </div>
+                <div className="wtw_ptf-section_img">
+                    <div><img src={image66} alt="" /></div>
+                    <div><img src={image65} alt="" /></div>
+                </div>
             </div>
         </div>
     </div>

@@ -12,7 +12,7 @@
     align-items: center;
     background-color: #F5E6FE;
     padding-top: 60px;
-    max-width: 1800px;
+    max-width: 1400px;
 }
 
 .wtw-process2-section {
@@ -73,7 +73,11 @@
 
 .wtw_process2-button {
     padding: 0 60px;
-    align-self: flex-start;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
     background-color: #F5E6FE;
     padding-bottom: 60px;
 }

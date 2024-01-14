@@ -55,7 +55,7 @@ const BrandingAndDesign = () => {
                         w={{ base: "100%", md: "90%" }}
                         px={{ base: ".5em", md: "" }}
                         m={"auto"}
-                        maxWidth={'1800px'}
+                        maxWidth={'1400px'}
                         flexDirection={{ base: "column", md: "row" }}
                     >
                         <Box flex={1.3}>

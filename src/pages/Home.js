@@ -71,7 +71,7 @@ export default function Home() {
             <Flex
               pb={"5em"}
               w={{ base: "100%", md: "90%" }}
-              maxWidth={'1800px'}
+              maxWidth={'1400px'}
               px={{ base: ".5em", md: "" }}
               m={"auto"}
               flexDirection={{ base: "column", md: "row" }}
@@ -124,7 +124,7 @@ export default function Home() {
             width={{ base: "99%", md: "85%" }} 
             m={"auto"} 
             spacing={"4em"}
-            maxWidth={'1800px'}
+            maxWidth={'1400px'}
           >
             <VStack
               textAlign={"center"}
@@ -230,7 +230,7 @@ export default function Home() {
             width={{ base: "99%", md: "90%" }} 
             m={"auto"} 
             spacing={"4em"}
-            maxWidth={'1800px'}
+            maxWidth={'1400px'}
           >
             <VStack
               textAlign={"center"}
@@ -273,7 +273,7 @@ export default function Home() {
             width={{ base: "99%", md: "90%" }} 
             m={"auto"} 
             spacing={"4em"}
-            maxWidth={'1800px'}
+            maxWidth={'1400px'}
           >
             <VStack
               textAlign={"center"}
@@ -301,7 +301,7 @@ export default function Home() {
             direction={{ base: "column", md: "row" }}
             m={"auto"} 
             spacing={"4em"}
-            maxWidth={'1800px'}
+            maxWidth={'1400px'}
           >
             <Flex p={8} flex={1} align={"center"} justify={"start"}>
               <Stack justifyItems={"center"} spacing={6} w={"full"} maxW={"lg"}>
@@ -342,7 +342,7 @@ export default function Home() {
           width={{ base: "99%", md: "85%" }} 
           m={"auto"} 
           spacing={"4em"}
-          maxWidth={'1800px'}
+          maxWidth={'1400px'}
         >
             <VStack
               textAlign={"center"}

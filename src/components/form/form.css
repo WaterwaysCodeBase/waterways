@@ -1,9 +1,16 @@
 .wtw_form-section {
     background: #6404A3;
     width: 100%;
-    align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.wtw_form-all {
+    display: flex;
+    flex-direction: column;
+    background: #6404A3;
+    width: 100%;
+    align-items: center;
 }
 
 .wtw_form {
@@ -12,7 +19,8 @@
     align-items: center;
     background: #6404A3;
     gap: 4rem;
-    max-width: 1800px;
+    max-width: 1400px;
+    width: 100%;
 }
 
 .wtw_form-image {

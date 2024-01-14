@@ -14,7 +14,6 @@ const Page4 = () => {
       <GeneralPageLayout>
           <Session />
           <Form />
-          <Testimonial />
           <Spot />
           <Project2 />
       </GeneralPageLayout>
