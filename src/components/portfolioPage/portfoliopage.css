@@ -19,174 +19,265 @@
 .wtw_ptf-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+    gap: 2rem;
 }
 
-.wtw_ptf-header_text {
-    flex-direction: column;
-    gap: 5px;
-    display: flex;
-    flex: 1;
-}
-
-.wtw_ptf-header_text h1 {
-    font-family: Quicksand;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 72px;
-    letter-spacing: 0em;
-    text-align: left;    
-    color: #6404A3;
-}
-
-.wtw_ptf-header_text p {
-    font-family: Quicksand;
-    font-size: 23px;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;   
-    
-    color: #242529;
-}
-
-.wtw_ptf-header_image {
-    justify-content: flex-end;
-    display: flex;
-    flex: 1;
-}
-
-.wtw_ptf-header_image img {
-    display: flex;
-    padding: 1rem 3rem;
-    border-radius: 50%;
-    justify-self: right;
-    border: 5px solid #242529;
-    border-style: dashed;
-}
-
-.wtw_ptf-section {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-    background: #F5E6FE;
-    border-radius: 5px;
-}
-
-.wtw_ptf-section1 {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-}
-
-.wtw_ptf-section_text {
-    flex: 1;
+.wtw_ptf-title {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1.5;
+    gap: 1rem;
 }
 
-.wtw_ptf-section_text h4 {
-    font-family: Quicksand;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;    
-    color: #6404A3;
-}
-
-.wtw_ptf-section_text h2 {
+.wtw_ptf-title h4 {
     font-family: Quicksand;
     font-size: 35px;
     font-weight: 700;
     line-height: 46px;
     letter-spacing: 0em;
     text-align: left;    
-    color: #323842;
+    color: #6404A3;
 }
 
-.wtw_ptf-section_text p {
+.wtw_ptf-title h1 {
     font-family: Quicksand;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 25px;
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 75px;
     letter-spacing: 0em;
-    text-align: left;    
-    color: #323842;
-    margin-bottom: 6rem;
+    text-align: left;
+    color: #242529;
 }
 
-.wtw_ptf-section_text button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    border: 1px solid #FE7200;
-    width: 150px;
-    padding: 5px;
-    border-radius: 5px;
-
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
+.wtw_ptf-title h1 span {
+    font-family: Quicksand;
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
     color: #FE7200;
 }
 
-.wtw_ptf-section_img {
-    justify-content: center;
+.wtw_ptf-title p {
+    font-family: Quicksand;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;    
+    padding: 10px;
+    background: #E4CCF3;
+    color: #242529;
+}
+
+.wtw_ptf-list {
+    flex: 0.7;
+    padding: 3rem;
+    background: #F5E6FE;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wtw_ptf-list p {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #54595F;    
+}
+
+.wtw_ptf-list ul {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    gap: 1rem 4rem;
+}
+
+.wtw_ptf-list li {
+    font-family: Quicksand;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.wtw_ptf-product {
     width: 100%;
-    flex: 1.5;
+    margin: 2rem 0;
+}
+
+.wtw_ptf-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.wtw_ptf-card p {
+    font-family: Quicksand;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.wtw_ptf-card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wtw_ptf-section {
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: #930099;
     gap: 2rem;
 }
 
-.wtw_ptf-section_img div:nth-child(1) {
-    transform: translateY(10px);
-}
-.wtw_ptf-section_img div:nth-child(2) {
-    transform: translateY(-10px);
-}
-.wtw_ptf-section_img div:nth-child(3) {
-    transform: translateY(10px);
+.wtw_ptf-section:last-child {
+    background: #DE001D;
 }
 
-@media screen and (max-width: 850px)  {
+.wtw_ptf-sectionTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    justify-content: center;
+    padding: 4rem;
+    color: #F5E6FE;
+}
+
+.wtw_ptf-sectionTitle h4 {
+    font-family: Quicksand;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.wtw_ptf-sectionTitle p {
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.wtw_ptf-brands {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wtw_ptf-brands h4 {
+    font-family: Quicksand;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+
+.wtw_ptf-brands h1 {
+    font-family: Quicksand;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: center; 
+    align-self: center;    
+    width: 70%; 
+    margin-bottom: 2rem;
+}
+
+.wtw_ptf-brands h1 span {
+    font-family: Quicksand;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: center;  
+    color: #FE7200;
+}
+
+@media screen and (max-width: 800px) {
     .wtw_ptf {
         padding: 20px;
     }
 
-    .wtw_ptf-header_image {
-        display: none;
-        visibility: hidden;
+        
+    .wtw_ptf-title h4 {
+        font-size: 30px;
+        line-height: 40px;
     }
 
-    .wtw_ptf-section {
+    .wtw_ptf-title h1 {
+        font-size: 62px;
+        line-height: 70px;
+    }
+
+    .wtw_ptf-title h1 span {
+        font-size: 62px;
+        line-height: 70px;
+    }
+
+    .wtw_ptf-title p {
+        font-size: 20px;
+    }
+
+    .wtw_ptf-header {
         flex-direction: column;
-        padding: 1rem;
-    }
-    .wtw_ptf-section1 {
-        flex-direction: column;
-        padding: 1rem;
+        align-items: flex-start;
     }
 
-    .wtw_ptf-section_text p {
-        margin-bottom: 2rem;
+    .wtw_ptf-title {
+        width: 90%;
     }
 
-    .wtw_ptf-section_img div:nth-child(1) {
-        transform: none;
+    .wtw_ptf-list {
+        width: 70%;
+        align-self: flex-end;
     }
-    .wtw_ptf-section_img div:nth-child(2) {
-        transform: none;
+
+    .wtw_ptf-card {
+        margin: 1rem 0;
     }
-    .wtw_ptf-section_img div:nth-child(3) {
-        transform: none;
+
+    .wtw_ptf-sectionTitle {
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+    .wtw_ptf-sectionTitle h4 {
+        font-size: 30px;
+    }
+    
+    .wtw_ptf-sectionTitle p {
+        font-size: 20px;
+    }
+
+    .wtw_ptf-brands h4 {
+        font-size: 20px;
+        line-height: 30px;   
+    }
+    
+    .wtw_ptf-brands h1 {
+        font-size: 40px;
+        line-height: 50px;    
+        width: 100%; 
+    }
+    
+    .wtw_ptf-brands h1 span {
+        font-size: 40px;
+        line-height: 50px;    
+        width: 100%; 
     }
 }

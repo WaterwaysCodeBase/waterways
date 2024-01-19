@@ -32,7 +32,7 @@ const Project2 = () => {
                 <img src={P26} alt="" />
             </div>
         </div>
-        <a href="#wtw">See More {`>>`}</a>
+        <a href="/portfolio">See More {`>>`}</a>
     </div>
   )
 }

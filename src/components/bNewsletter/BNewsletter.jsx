@@ -3,7 +3,7 @@ import Section from '../Section'
 import { bgLight, primaryColor, secondaryColor } from '../Colors'
 import { HeadingTitle4, HeadingTitle5 } from '../HeadingTitle'
 import { SimpleText, SimpleText2 } from '../TextStyles'
-import { Flex, Image, Stack, VStack } from '@chakra-ui/react'
+import { Flex, Image, Link, LinkBox, Stack, VStack } from '@chakra-ui/react'
 import Newsletter from '../newsletter/Newsletter'
 import goals from '../../img/goals.png'
 
@@ -61,17 +61,19 @@ const BNewsletter = () => {
                 <SimpleText2>
                   Speak to an expert and hear for yourself how our digital services can help your business grow and succeed. Ready? Grab a block of time.
                 </SimpleText2>
-                <p
-                  style={{
-                    color:`${secondaryColor}`,
-                    cursor: "pointer",
-                    fontSize: '18px',
-                    textDecorationLine: 'underline',
-                    width: '150px'
-                  }}
-                >
-                  Learn more
-                </p>
+                <Link href='/contact-us'>
+                  <p
+                    style={{
+                      color:`${secondaryColor}`,
+                      cursor: "pointer",
+                      fontSize: '18px',
+                      textDecorationLine: 'underline',
+                      width: '150px'
+                    }}
+                  >
+                    Learn more
+                  </p>
+                </Link>
               </Stack>
               <Stack
                 justifyItems={"center"}  
@@ -87,17 +89,19 @@ const BNewsletter = () => {
                 <SimpleText2>
                   Speak to an expert and hear for yourself how our digital services can help your business grow and succeed. Ready? Grab a block of time.
                 </SimpleText2>
-                <p
-                  style={{
-                    color:`${secondaryColor}`,
-                    cursor: "pointer",
-                    fontSize: '18px',
-                    textDecorationLine: 'underline',
-                    width: '150px'
-                  }}
-                >
-                  Learn more
-                </p>
+                <Link href='/get-started'>
+                  <p
+                    style={{
+                      color:`${secondaryColor}`,
+                      cursor: "pointer",
+                      fontSize: '18px',
+                      textDecorationLine: 'underline',
+                      width: '150px'
+                    }}
+                  >
+                    Learn more
+                  </p>
+                </Link>
               </Stack>
             </Flex>
             <Flex 

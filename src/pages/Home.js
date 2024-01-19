@@ -9,6 +9,8 @@ import {
   Icon,
   Image,
 
+  Link,
+
   SimpleGrid,
   Stack,
   Text,
@@ -101,11 +103,13 @@ export default function Home() {
                     expectations.
                   </SimpleText>
                   <Box>
-                    <CustumButton
-                      bg={secondaryColor}
-                      color={"white"}
-                      label={"Book A Free Consultation"}
-                    />
+                    <Link href="">
+                      <CustumButton
+                        bg={secondaryColor}
+                        color={"white"}
+                        label={"Book A Free Consultation"}
+                      />
+                    </Link>
                   </Box>
                 </Stack>
               </Box>
@@ -311,11 +315,13 @@ export default function Home() {
                   Agencies
                 </HeadingTitle3>
                 <Box>
-                  <CustumButton
-                    bg={secondaryColor}
-                    color={"white"}
-                    label={"Learn more >>"}
-                  />
+                  <Link href="/about-us">
+                    <CustumButton
+                      bg={secondaryColor}
+                      color={"white"}
+                      label={"Learn more >>"}
+                    />
+                  </Link>
                 </Box>
               </Stack>
             </Flex>

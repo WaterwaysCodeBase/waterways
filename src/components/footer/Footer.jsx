@@ -16,19 +16,19 @@ const Footer = () => {
                         <div className="wtw_footer-info">
                             <div className="wtw_footer-text">
                                 <h2>Services</h2>
-                                <a href="#social">Web Design</a>
-                                <a href="#social">Brand Design</a>
-                                <a href="#social">Printing</a>
+                                <a href="/services/website-design">Web Design</a>
+                                <a href="/services/branding-and-design">Brand Design</a>
+                                <a href="/services/general-printing">Printing</a>
                             </div>
                             <div className="wtw_footer-text">
                                 <h2>Resources</h2>
                                 <a href="#social">Blog</a>
-                                <a href="#social">Portfolio</a>
+                                <a href="/portfolio">Portfolio</a>
                             </div>
                             <div className="wtw_footer-text">
                                 <h2>Company</h2>
-                                <a href="#social">About Us</a>
-                                <a href="#social">Contact Us</a>
+                                <a href="/about-us">About Us</a>
+                                <a href="/contact-us">Contact Us</a>
                                 <a href="#social">FAQ</a>
                             </div>
                         </div>

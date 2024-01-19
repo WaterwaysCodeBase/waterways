@@ -1,84 +1,106 @@
 import React from 'react'
 import './portfoliopage.css'
 
-import arrow from '../../img/arrow.png'
-import image57 from '../../img/Image 57.png'
-import image58 from '../../img/Image 58.png'
-import image59 from '../../img/Image 59.png'
-import image60 from '../../img/Image 60.png'
-import image61 from '../../img/Image 61.png'
-import image62 from '../../img/Image 62.png'
-import image63 from '../../img/Image 63.png'
-import image64 from '../../img/Image 64.png'
-import image65 from '../../img/Image 65.png'
-import image66 from '../../img/Image 66.png'
+import Phone from '../../img/phone.png'
+import Laptop from '../../img/Laptop.png'
 
-import { 
-    BsArrowRightShort
-  } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+import { SimpleGrid } from '@chakra-ui/react';
+import { PortfoilioContent, PortfoilioImage } from '../../utils/data';
 
 const PortfolioPage = () => {
+
+  AOS.init();
   return (
     <div className='wtw_ptf'>
         <div className="wtw_ptf-top">
             <div className="wtw_ptf-header">
-                <div className="wtw_ptf-header_text">
-                    <h1>Portfolio</h1>
-                    <p>Lorem occaecat proident excepteur commodo et nulla eiusmod. Elit esse aute officia dolor elit aute</p>
+                <div className="wtw_ptf-title">
+                    <h4>Portfolio</h4>
+                    <h1>We are fueled by our clients’ <span>success.</span></h1>
+                    <p 
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    >
+                        The beautiful website examples you see below are just a small sample of the websites we’ve created. We don’t specialize in any industry in particular, because 
+                        frankly, that’d be boring! We do prefer to work with growth-driven companies—who have goals to crush!
+                    </p>
                 </div>
-                <div className="wtw_ptf-header_image">
-                    <img src={arrow} alt="" />
+                <div 
+                  className="wtw_ptf-list"
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
+                  <p>INDUSTRIES WE’VE SERVED</p>
+                  <ul>
+                    <li>Finance</li>
+                    <li>E-Commerce</li>
+                    <li>Health care</li>
+                    <li>Oil & Gas</li>
+                    <li>Legal</li>
+                  </ul>
                 </div>
+            </div>
+            <div className="wtw_ptf-product">
+              <SimpleGrid columns={2} spacing={10}>
+                {PortfoilioContent.map((i) => (
+                  <div className="wtw_ptf-card">
+                    <p>{i.title}</p>
+                    <img src={i.img} alt="" />
+                  </div>
+                ))}
+              </SimpleGrid>
             </div>
             <div className="wtw_ptf-section">
-                <div className="wtw_ptf-section_text">
-                    <h4>Pefume Rebranding</h4>
-                    <h2>Paris secrets</h2>
-                    <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
-                    <button>View project <BsArrowRightShort /></button>
-                </div>
-                <div className="wtw_ptf-section_img">
-                    <div><img src={image57} alt="" /></div>
-                    <div><img src={image58} alt="" /></div>
-                    <div><img src={image59} alt="" /></div>
-                </div>
+              <div className="wtw_ptf-sectionTitle">
+                <h4>Your Design PLC Int.</h4>
+                <p>Website Design & Mobile App Development for Designers and agenecies</p>
+              </div>
+              <div className="wtw_ptf-sectionImage">
+                  <img src={Phone} alt="" />
+              </div>
             </div>
-            <div className="wtw_ptf-section1">
-                <div className="wtw_ptf-section_text">
-                    <h4>Tesla Web Design</h4>
-                    <h2>Oceanic feeling</h2>
-                    <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
-                    <button>View project <BsArrowRightShort /></button>
-                </div>
-                <div className="wtw_ptf-section_img">
-                    <div><img src={image60} alt="" /></div>
-                    <div><img src={image61} alt="" /></div>
-                </div>
+            <div className="wtw_ptf-product">
+              <SimpleGrid columns={2} spacing={10}>
+                {PortfoilioContent.map((i) => (
+                  <div className="wtw_ptf-card">
+                    <p>{i.title}</p>
+                    <img src={i.img} alt="" />
+                  </div>
+                ))}
+              </SimpleGrid>
             </div>
             <div className="wtw_ptf-section">
-                <div className="wtw_ptf-section_text">
-                    <h4>Swiss Brand Design</h4>
-                    <h2>Pure summer garden</h2>
-                    <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
-                    <button>View project <BsArrowRightShort /></button>
-                </div>
-                <div className="wtw_ptf-section_img">
-                    <div><img src={image62} alt="" /></div>
-                    <div><img src={image63} alt="" /></div>
-                    <div><img src={image64} alt="" /></div>
-                </div>
+              <div className="wtw_ptf-sectionTitle">
+                <h4>RED STAR EXPRESS PLC.</h4>
+                <p> Website Design & Mobile App Development for Leading Logistics Company</p>
+              </div>
+              <div className="wtw_ptf-sectionImage">
+                  <img src={Laptop} alt="" />
+              </div>
             </div>
-            <div className="wtw_ptf-section1">
-                <div className="wtw_ptf-section_text">
-                    <h4>Product Design</h4>
-                    <h2>Fairy tales</h2>
-                    <p>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat magna fugiat quis sit duis est in volup</p>
-                    <button>View project <BsArrowRightShort /></button>
-                </div>
-                <div className="wtw_ptf-section_img">
-                    <div><img src={image66} alt="" /></div>
-                    <div><img src={image65} alt="" /></div>
-                </div>
+            <div className="wtw_ptf-brands">
+              <h4>BRAND EXPERIENCE</h4>
+              <h1>We are humble and proud to work with <span>amazing clients.</span></h1>
+              <div className="wtw_ptf-brandImg">
+                <SimpleGrid columns={5} spacing={5}>
+                  {PortfoilioImage.map((i) => (
+                    <img 
+                      src={i.img} alt=""
+                      data-aos={i.dir} 
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="1500"
+                    />
+                  ))}
+                </SimpleGrid>
+              </div>
             </div>
         </div>
     </div>

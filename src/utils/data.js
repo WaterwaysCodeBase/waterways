@@ -15,6 +15,18 @@ import process1 from '../img/image 5.png'
 import process2 from '../img/image 6.png'
 import process3 from '../img/image 7.png'
 import process4 from '../img/process4.jpg'
+import Animation from '../img/Animation.png'
+import Animation1 from '../img/Animation1.png'
+import Rectangle26 from '../img/Rectangle 26.png'
+import Rectangle27 from '../img/Rectangle 27.png'
+import Rectangle28 from '../img/Rectangle 28.png'
+import Rectangle29 from '../img/Rectangle 29.png'
+import Rectangle30 from '../img/Rectangle 30.png'
+import Rectangle31 from '../img/Rectangle 31.png'
+import Rectangle32 from '../img/Rectangle 32.png'
+import Rectangle33 from '../img/Rectangle 33.png'
+import Rectangle34 from '../img/Rectangle 34.png'
+import Rectangle35 from '../img/Rectangle 35.png'
 
 export const homeCardContent = [
   {
@@ -144,4 +156,75 @@ export const servicesContent = [
     title: 'Built with World-Class Tools',
     text: 'We leverage the best tools – WordPress, Shopify, Magento, Google Analytics, and many more – to deliver the results you need for your business.'
   },
+]
+
+export const PortfoilioContent = [
+  {
+    title: 'Fortune International',
+    img: Animation
+  },
+  {
+    title: 'Dee Peemer Beauty',
+    img: Animation1
+  },
+  {
+    title: 'Dee Peemer Beauty',
+    img: Animation1
+  },
+  {
+    title: 'Fortune International',
+    img: Animation
+  },
+]
+
+export const PortfoilioContent1 = [
+  {
+    title: 'Fortune International',
+    img: Animation1
+  },
+  {
+    title: 'Dee Peemer Beauty',
+    img: Animation
+  },
+  {
+    title: 'Dee Peemer Beauty',
+    img: Animation
+  },
+  {
+    title: 'Fortune International',
+    img: Animation1
+  },
+]
+export const PortfoilioImage = [
+  {
+    img: Rectangle26,
+    dir: 'fade-left'
+  },
+  {
+    img: Rectangle27,
+    dir: 'fade-left'  },
+  {
+    img: Rectangle28,
+    dir: 'fade-left'  },
+  {
+    img: Rectangle29,
+    dir: 'fade-left'  },
+  {
+    img: Rectangle30,
+    dir: 'fade-left'  },
+  {
+    img: Rectangle31,
+    dir: 'fade-right'  },
+  {
+    img: Rectangle32,
+    dir: 'fade-right'  },
+  {
+    img: Rectangle33,
+    dir: 'fade-right'  },
+  {
+    img: Rectangle34,
+    dir: 'fade-right'  },
+  {
+    img: Rectangle35,
+    dir: 'fade-right'  },
 ]
