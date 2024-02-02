@@ -33,16 +33,19 @@ export const homeCardContent = [
     icon: BsLightbulb,
     title: "Creativity",
     text: "We believe in working hand in hand, aligning our expertise with your vision. Together, we co-create solutions that bring your ideas to life.",
+    time: '1000'
   },
   {
     icon: BsGear,
     title: "Efficiency",
     text: "We are committed to optimizing processes, enhancing performance, and delivering solutions that save you time and resources.",
+    time: '1800'
   },
   {
     icon: BsFillBrightnessHighFill,
     title: "Innovation",
     text: "Innovation is the cornerstone of our digital solution services. We're committed to breaking boundaries and pushing the limits of what's possible.",
+    time: '2200'
   }
 ];
 

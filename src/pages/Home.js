@@ -1,5 +1,7 @@
 import * as React from "react";
 import './home.css'
+
+import 'aos/dist/aos.css'; 
 // 1. import `ChakraProvider` component
 import {
   Box,
@@ -259,9 +261,9 @@ export default function Home() {
               justify={"start"}
               gap={{ base: "3em", md: "1em" }}
             >
-              <SimpleGrid columns={{ base: 1, md: 3 }} spacing={"2em"}>
-                <SimpleCard content={homeCardContent} />
-              </SimpleGrid>
+                <SimpleGrid columns={{ base: 1, md: 3 }} spacing={"2em"}>
+                  <SimpleCard content={homeCardContent}/>
+                </SimpleGrid>
             </Flex>
           </Stack>
         </Section>

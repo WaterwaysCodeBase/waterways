@@ -14,6 +14,10 @@ const SimpleCard = ({ icon, content }) => {
           w={"full"}
           boxShadow={"md"}
           _hover={{ boxShadow: "lg" }}
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration={cardContent?.time}
         >
           <CardBody>
             <HStack alignSelf={"center"} justifySelf={"center"}>

@@ -22,10 +22,20 @@ const Goals = () => {
         <h3 className='wtw_header'>Whatever your goal is for your website, we will help you succeed.</h3>
         <div className='wtw_goals'>
             <div className="wtw_goals-left">
-                <div className="wtw_goals-img">
+                <div className="wtw_goals-img"
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <img src={goal1} alt="" />
                 </div>
-                <div className="wtw_goals-text">
+                <div className="wtw_goals-text"
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <h4>A corporate website that improves your brand image</h4>
                     <p>
                         Your website says something about your brand – something good or bad. 
@@ -37,10 +47,20 @@ const Goals = () => {
                 </div>
             </div>
             <div className="wtw_goals-right">
-                <div className="wtw_goals-img">
+                <div className="wtw_goals-img"
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <img src={goal2} alt="" />
                 </div>
-                <div className="wtw_goals-text">
+                <div className="wtw_goals-text"
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <h4>A custom-made web application that is functional and user-friendly</h4>
                     <p>
                         Do you have an idea and need the right digital partner to make it a 
@@ -51,10 +71,20 @@ const Goals = () => {
                 </div>
             </div>
             <div className="wtw_goals-left">
-                <div className="wtw_goals-img">
+                <div className="wtw_goals-img"
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <img src={goal3} alt="" />
                 </div>
-                <div className="wtw_goals-text">
+                <div className="wtw_goals-text"
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <h4>A beautiful e-commerce website that helps generate sales</h4>
                     <p>
                         Looking to sell online? Well, your search is over! With our experienced 
@@ -65,10 +95,20 @@ const Goals = () => {
                 </div>
             </div>
             <div className="wtw_goals-right">
-                <div className="wtw_goals-img">
+                <div className="wtw_goals-img"
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <img src={goal4} alt="" />
                 </div>
-                <div className="wtw_goals-text">
+                <div className="wtw_goals-text"
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <h4>A marketing website that attracts, engages and converts visitors</h4>
                     <p>
                         Here’s one mistake we see a lot of businesses make… they spend money on ads 

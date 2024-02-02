@@ -20,10 +20,20 @@ const Goals2 = () => {
         <h3 className='wtw_header'>Whatever your goal is for your website, we will help you succeed.</h3>
         <div className='wtw_goals2'>
             <div className="wtw_goals2-left">
-                <div className="wtw_goals2-img">
+                <div className="wtw_goals2-img"
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <img src={goal3} alt="" />
                 </div>
-                <div className="wtw_goals2-text">
+                <div className="wtw_goals2-text"
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <h4>Branding and design for a new business</h4>
                     <p>
                         As a brand and identity consultant, we understand the importance of making a lasting 
@@ -34,10 +44,20 @@ const Goals2 = () => {
                 </div>
             </div>
             <div className="wtw_goals2-right">
-                <div className="wtw_goals2-img">
+                <div className="wtw_goals2-img"
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <img src={goal2} alt="" />
                 </div>
-                <div className="wtw_goals2-text">
+                <div className="wtw_goals2-text"
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <h4>Rebranding an existing business</h4>
                     <p>
                         Is there a new direction for your company? Or is your brand identity now ancient and 
@@ -47,10 +67,20 @@ const Goals2 = () => {
                 </div>
             </div>
             <div className="wtw_goals2-left">
-                <div className="wtw_goals2-img">
+                <div className="wtw_goals2-img"
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <img src={goal1} alt="" />
                 </div>
-                <div className="wtw_goals2-text">
+                <div className="wtw_goals2-text"
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <h4>Design of additional brand stationary and assets.</h4>
                     <p>
                         Your brand goes beyond logo and colours. It involves your messaging, your voice, your tone, and your culture. 

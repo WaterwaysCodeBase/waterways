@@ -9,7 +9,9 @@ import GetStarted from "../pages/GetStarted";
 import"../App.css"
 import BrandingAndDesign from "../pages/our-services/BrandingAndDesign";
 import Page4 from "../pages/Page4";
+import AOS from 'aos';
 export const AppRoutes = () => {
+	AOS.init();
 	return (
 		<BrowserRouter>
 			<Routes>

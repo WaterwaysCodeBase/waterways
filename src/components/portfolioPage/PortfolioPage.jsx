@@ -4,15 +4,12 @@ import './portfoliopage.css'
 import Phone from '../../img/phone.png'
 import Laptop from '../../img/Laptop.png'
 
-import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
 import { SimpleGrid } from '@chakra-ui/react';
 import { PortfoilioContent, PortfoilioImage } from '../../utils/data';
 
 const PortfolioPage = () => {
-
-  AOS.init();
   return (
     <div className='wtw_ptf'>
         <div className="wtw_ptf-top">
