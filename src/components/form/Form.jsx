@@ -8,12 +8,9 @@ const Form = () => {
         <div className="wtw_form-all">
             <div className=""></div>
             <div className='wtw_form'>
-                <div className="wtw_form-image">
+                <div className="wtw_form-input">
                     <h1>Get Started Here</h1>
                     <p>Fill in the form to get in touch.</p>
-                    <img src={img1} alt="" />
-                </div>
-                <div className="wtw_form-input">
                     <form action="">
                         <div className="wtw_form-double">
                             <div className="wtw_form-single">
@@ -57,6 +54,9 @@ const Form = () => {
                         </div>
                         <button>Submit</button>
                     </form>
+                </div>
+                <div className="wtw_form-image">
+                    <img src={img1} alt="" />
                 </div>
             </div>
         </div>

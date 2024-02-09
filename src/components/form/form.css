@@ -1,5 +1,5 @@
 .wtw_form-section {
-    background: #6404A3;
+    background: #FAF2FF;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 .wtw_form-all {
     display: flex;
     flex-direction: column;
-    background: #6404A3;
+    background: #FAF2FF;
     width: 100%;
     align-items: center;
 }
@@ -17,7 +17,7 @@
     display: flex;
     padding: 60px;
     align-items: center;
-    background: #6404A3;
+    background: #FAF2FF;
     gap: 4rem;
     max-width: 1400px;
     width: 100%;
@@ -30,7 +30,7 @@
     align-items: flex-start;
 }
 
-.wtw_form-image h1 {
+.wtw_form-input h1 {
     font-family: Quicksand;
     font-size: 44px;
     font-weight: 700;
@@ -38,11 +38,11 @@
     letter-spacing: 0em;
     text-align: left;
     
-    color: #F5E6FE;
+    color: #0C0D0E;
     margin-bottom: 1rem;
 }
 
-.wtw_form-image p {
+.wtw_form-input p {
     font-family: Quicksand;
     font-size: 18px;
     font-weight: 600;
@@ -50,13 +50,14 @@
     letter-spacing: 0em;
     text-align: left;    
     
-    color: #F5E6FE;
+    color: #54595F;
     margin-bottom: 1rem;
 }
 
 .wtw_form-input {
     flex: 1;
     display: flex;
+    flex-direction: column;
 }
 
 .wtw_form-input form {
@@ -89,7 +90,7 @@
     letter-spacing: 0em;
     text-align: left;    
 
-    color: #F1F2F3;
+    color: #0C0D0E;
 }
 
 .wtw_form-single input {
@@ -113,7 +114,7 @@
     padding: 5px 10px;
     background: #FE7200;
     border-radius: 5px;
-    color: #FFFFFF;
+    color: #0C0D0E;
 
     font-family: Quicksand;
     font-size: 18px;
